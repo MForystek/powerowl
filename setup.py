@@ -21,12 +21,12 @@ setup(
     ]),
     install_requires=[
         'ipaddress==1.0.23',
-        'matplotlib>=3.1.2',
+        'matplotlib>=3.9.2',
         'netifaces==0.11.0',
         'networkx>=2.5',
         'numpy',
-        #'pandapower==2.13.2', # Not yet released but contains critical bug fix
-        'pandapower @ git+https://github.com/e2nIEE/pandapower.git',
+        'pandapower==2.14.11',
+        #'pandapower @ git+https://github.com/e2nIEE/pandapower.git@2feba868882479fba6c8b0882c1bc77dfc71c77d#egg=pandapower'
         'pandas',
         'pydot',
         'plotly',
